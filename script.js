@@ -15,7 +15,7 @@
             }
             
             // Countdown Timer
-            const countDownDate = new Date("Jun 2, 2025 00:00:00").getTime();
+            const countDownDate = new Date("Jun 2, 2025 03:00:00").getTime();
             
             function updateCountdown() {
                 const now = new Date().getTime();
