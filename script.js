@@ -15,7 +15,7 @@
             }
             
             // Countdown Timer
-            const countDownDate = new Date("Jun 1, 2025 10:00:00").getTime();
+            const countDownDate = new Date("Jun 2, 2025 00:00:00").getTime();
             
             function updateCountdown() {
                 const now = new Date().getTime();
@@ -433,8 +433,8 @@
             }
         }
         
-        // Tanggal pengumuman: 2 Juni 2025, 10:00:00
-const announcementDate = new Date('2025-06-02T10:00:00');
+        // Tanggal pengumuman: 1 Juni 2025, 10:00:00
+const announcementDate = new Date('2025-06-01T10:00:00');
 const checkBtn = document.getElementById('check-btn');
 
 // Fungsi update tombol
@@ -443,7 +443,7 @@ function updateCheckButtonState() {
     if (now < announcementDate) {
         checkBtn.disabled = true;
         checkBtn.classList.add('opacity-60', 'cursor-not-allowed');
-        checkBtn.setAttribute('title', 'Cek kelulusan hanya bisa diakses pada 2 Juni 2025');
+        checkBtn.setAttribute('title', 'Cek kelulusan hanya bisa diakses pada 1 Juni 2025');
     } else {
         checkBtn.disabled = false;
         checkBtn.classList.remove('opacity-60', 'cursor-not-allowed');
